@@ -1,1 +1,4 @@
 allow init vendor_configs_file:dir mounton;
+
+# Allow init to mount wlan kernel module
+allow init vendor_file:file mounton;
