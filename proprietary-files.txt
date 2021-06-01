@@ -21,8 +21,6 @@ system_ext/lib64/libdpmtcm.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 
-# IMS - from LA.UM.9.1.r1-09200-SMxxx0
--system_ext/priv-app/ims/ims.apk|7c243d450cc215be2b0187d5e3e6cd01059b8cc1
 
 # IMS
 system_ext/lib64/libdiag_system.so
@@ -33,6 +31,7 @@ system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
+-system_ext/priv-app/ims/ims.apk
 
 # Power-off charging daemon
 bin/charger
@@ -53,5 +52,3 @@ system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/qcrilhook.jar
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
-# Telephony (qti-telephony-common) - from LA.UM.9.1.r1-09200-SMxxx0
-system_ext/framework/qti-telephony-common.jar|5738f04ba6c39a4513ffc9f6090848d6fcc73d1e
