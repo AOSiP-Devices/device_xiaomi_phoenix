@@ -124,7 +124,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.phoenix
+    android.hardware.power-service.phoenix
 
 # Telephony
 PRODUCT_PACKAGES += \
